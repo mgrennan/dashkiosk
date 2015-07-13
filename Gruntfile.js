@@ -4,7 +4,7 @@ var glob = require('glob'),
     fs   = require('fs');
 
 var PORTS = {
-  express: 9400 || process.env.PORT,
+  express: 8080 || process.env.PORT,
   livereload: 31452
 },
     DEFAULT_BRANDING = 'default';
